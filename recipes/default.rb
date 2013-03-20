@@ -23,8 +23,6 @@ user 'td-agent' do
 end
 
 directory '/etc/td-agent/' do
-  owner  'td-agent'
-  group  'td-agent'
   mode   '0755'
   action :create
 end
